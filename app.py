@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-_page_config(page_title="My First Streamlit App", page_icon="🎈")
+st.set_page_config(page_title="My First Streamlit App", page_icon="🎈")
 
 st.title("🎈 My First Streamlit App")
 st.write(
